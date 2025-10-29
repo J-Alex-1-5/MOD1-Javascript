@@ -1,0 +1,47 @@
+@media (min-width: 1024px){
+    body{
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 1023px){
+    body{
+        background-color: rgb(8, 95, 59);
+    }
+}
+
+@media (min-width: 599x){
+    body{
+        background-color: rgb(79, 18, 186);
+    }
+}
+
+*{
+    margin: 5px;
+    padding: 2px;
+}
+
+p{
+    margin: 60px;
+    padding: 0px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:20px ;
+    font-weight: bold;
+
+}
+.clase-especial {
+    color: antiquewhite;
+    font-size: 14px;
+}
+
+#titulo {
+    color: violet;
+}
+
+imput[type="text"]{
+    border: 2px solid red;
+}

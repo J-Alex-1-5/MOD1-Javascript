@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Script JS</title>
+    <script src="scripts/Scripts.js" async></script>
+</head>
+<body>
+    <h1>prueba de carga de sisrema</h1>
+    <p>observamos en la consola el orden de ejecucion</p>
+    <button onclick="alert('Hiciste clic...')">"Has click aqui"</button>
+
+    <button onclick="eliminarElemento()">"Eliminar"</button>
+    <script>
+        function eliminarElemento(){
+            if (confirm("estas seguro de eliminar este elemento")){
+                alert("Elemento eliminado");
+            }else {
+                alert("accion cancelada");
+            }
+        }
+    </script>
+</body>
+</html>

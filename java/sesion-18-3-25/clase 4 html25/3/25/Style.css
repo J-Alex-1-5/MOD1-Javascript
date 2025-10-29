@@ -1,0 +1,38 @@
+span{
+    display: block;
+    background-color: aqua;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-container-6col{
+    display: grid;
+    grid-template-columns: repeat(6, 6em);
+    gap: 10px;
+}
+
+button{
+    display: inline-block;
+    width: 150 px;
+    height: 40px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,12am);
+    gap: 10px;
+}
+
+.grid-item{
+    background-color: azure;
+    padding: 20px;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
